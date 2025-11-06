@@ -44,3 +44,6 @@ These mutations as we call them are what drive the evolutionary process.
 
 ## The Final Network
 After all 20 generations have run, we save the best parameters to a pickle file and then test it out in the real clone with full graphics so we can see it in action.
+
+## Future Improvements
+In the future of this project, I would like to implement the NEAT algorithm (Neuro-evolution of augmenting topologies). This is a more complicated evolutionary algorithm that improves the training process by introducing speciation (grouping similar networks into a "species"), augmenting topologies (changing the actual structure of the network, not just the parameters) and other things that I do not understand yet. 
